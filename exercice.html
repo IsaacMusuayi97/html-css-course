@@ -1,6 +1,6 @@
 <body>
  <style>
-.this-para {
+/* .this-para {
     background-color: white;
     font-family: Tahoma;
     font-size: 25px;
@@ -53,11 +53,55 @@ body {
 
 .see-text {
     font-size: 16px;
+} */
+
+.container1 {
+    display: flex;
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+
+    background-color: #1D1C22;
+    width: 250px;
+    
+
 }
 
+ .image {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+ }
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.container2 {
+     background-color: #2C2B30;
+     width: 200px;
+     
+}
+
+.container-info {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.new {
+    margin-top: 10px;
+    color: white;
+}
  </style>   
 
-
+<!-- 
 <p class="this-para">This is Tahoma Font</p>
 
 <p class="biggest-para"> <span> Deals of the Year!</span><br>
@@ -67,5 +111,29 @@ body {
 <p class="shop-para">Shopping for your business? <br>
   <span class="see-text">See how Apple at Work can help.</span> <br>
   <span class="learn">Learn more	&#62;</span>
-</p>
+</p> -->
+
+
+
+
+<div class="container1">
+<div class="image"> 
+    <img class="isaac" src="isaac_photos.jpg" alt="">
+    <img src="tim.jpg" alt="">
+    <img src="unsplash.jpg" alt="">
+    
+</div>
+
+<div class="container2"> 
+    <div class="container-info">
+        <div>INFO</div>
+        <div>+</div>
+    </div>
+
+    <div class="new">#  new-videos</div>
+    <div  class="new">#  updates</div>
+    <div class="new">#  faq</div>
+</div>
+
+</div>
 </body>
